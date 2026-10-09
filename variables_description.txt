@@ -1,0 +1,78 @@
+﻿Country.Code           
+Time                   
+Country.Name           
+region                 
+income_group           
+eu                    - dummy 
+oecd                  - dummy
+gini_wid              - Gini coefficient (pre-tax)
+palma                 - Palma ratio (pre-tax)
+r20                   - 20:20 ratio (pre-tax)
+p80p100               - Income share of Top 20% (pre-tax)
+p90p100               - Income share of Top 10% (pre-tax)
+co2_pc_wb             - CO2 emissions per capita
+gdp_pc                - GDP per capita
+gdp                   - GDP
+pop                   - Population
+urban_pop             - Urban population
+over_65               - Population ages 65 and above
+agriculture           - Agriculture, value added
+manufacturing         - Manufacturing, value added
+services              - Services, value added
+agric_empl            - Employment in agriculture
+man_empl              - Employment in manufacturing
+serv_empl             - Employment in services
+trade_gdp             - Trade
+fdi_i                 - FDI net inflows
+final_hous_cons       - Final households consumption per capita
+prim_en               - Primary enrollment
+serv_managr           - Tertiarization, i.e. the ration between the value-added by the service sector and the sum of value-added by manufacturing and agriculture
+empl_serv_managr      - Tertiarization (with employment), , i.e. the ratio between employment in the service sector and the sum of employment in manufacturing and agriculture
+l_gini_wid            - natural logarithm of Gini coefficient (pre-tax)
+l_palma               - natural logarithm of Palma ratio (pre-tax)
+l_r20                 - natural logarithm of 20:20 ratio (pre-tax)
+l_p80p100             - natural logarithm of Income share of Top 20% (pre-tax)
+l_p90p100             - natural logarithm of Income share of Top 10% (pre-tax)
+l_co2_pc_wb           - natural logarithm of CO2 emissions per capita
+l_gdp_pc              - natural logarithm of GDP per capita
+l_pop                 - natural logarithm of Population
+l_urban_pop           - natural logarithm of Urban population
+l_over_65             - natural logarithm of Population ages 65 and above
+l_manufacturing       - natural logarithm of manufacturing
+l_services            - natural logarithm of services
+l_serv_empl           - natural logarithm of employment in services
+l_trade_gdp           - natural logarithm of Trade
+l_fdi_i               - natural logarithm of FDI inflows
+l_final_hous_cons     - natural logarithm of Final households consumption
+l_prim_en             - natural logarithm of Primary enrollment
+l_serv_managr         - natural logarithm of Tertiarization
+l_empl_serv_managr    - natural logarithm of Tertiarization (with employemnt)
+top10_em              - Carbon footprint of Top 10%
+cons_cf_p0p50         - Consumption carbon footprint of Bottom 50%
+cons_cf_p90p100       - Consumption carbon footprint of Top 10%
+cons_cf_p99p100       - Consumption carbon footprint of Top 1%
+inv_cf_p90p100        - Investment carbon footprint of Top 10%
+inv_cf_p99p100        - Investment carbon footprint of Top 1%
+str_index             - Environmental Policy Stringency Index
+eora_prod             - EORA CO2 emissions per capita
+eora_cons             - EORA CO2 emissions per capita from consumption
+l_eora_prod           - natural logarithm of eora_prod
+l_eora_cons           - natural logarithm of eora_cons
+industry              - Industry (including construction), value added (% of GDP)
+l_serv_indagr         - natural logarithm of Tertiarization (with industry)
+l_serv_managrserv     - natural logarithm of (Services/ All sectors) (with manufacturing)
+l_serv_indagrserv     - natural logarithm of (Services/ All sectors) (with industry)
+gini_wid_disp         - Gini coefficient (post-tax)
+palma_d               - Palma ratio (post-tax)
+r20_d                 - 20:20 ratio (post-tax)
+p80p100d              - Income share of Top 20% (post-tax)
+p90p100d              - Income share of Top 10% (post-tax)
+l_gini_wid_disp       - natural logarithm of Gini coefficient (post-tax)
+l_palma_d             - natural logarithm of Palma ratio (post-tax)
+l_r20_d               - natural logarithm of 20:20 ratio (post-tax)
+l_p80p100d            - natural logarithm of Income share of Top 20% (post-tax)
+l_p90p100d            - natural logarithm of Income share of Top 10% (post-tax)
+
+Notes: 
+- For variables with the 'l_' prefix, taking the 'natural logarithm' means calculating log(1 + var).
+- See the paper for more details on the variables
